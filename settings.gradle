@@ -8,9 +8,7 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google() // ← مهم
+        google()
         mavenCentral()
     }
 }
-rootProject.name = 'SMSYard'
-include ':app'
