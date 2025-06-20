@@ -10,6 +10,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set gradlew permission ✅
+        run: chmod +x ./gradlew
+
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
