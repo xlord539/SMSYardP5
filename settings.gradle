@@ -1,2 +1,16 @@
-rootProject.name = 'SMSYardFull'
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google() // ← مهم
+        mavenCentral()
+    }
+}
+rootProject.name = 'SMSYard'
 include ':app'
