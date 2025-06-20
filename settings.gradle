@@ -1,0 +1,2 @@
+rootProject.name = 'SMSYardFull'
+include ':app'
